@@ -12,4 +12,4 @@ COPY . /app
 RUN pip install xmltodict
 
 # Run the Python script when the container starts
-ENTRYPOINT ["python", "xmltojson.py"]
+ENTRYPOINT ["python", "restapi.py"]
