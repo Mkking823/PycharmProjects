@@ -30,7 +30,7 @@ def send_message():
 
     except Exception as e:
         print(f"An error occurred: {e}")
-
+#New comment
 def send_broadcast_message(server_info, message,max_buffer_size):
     try:
         server_ip = server_info['ip']
