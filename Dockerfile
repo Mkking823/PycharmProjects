@@ -9,7 +9,7 @@ COPY . /app
 
 #WORKDIR /home/ubuntu/DevOps_training/
 
-RUN pip install xmltodict
+RUN pip install flask
 
 # Run the Python script when the container starts
 ENTRYPOINT ["python", "restapi.py"]
