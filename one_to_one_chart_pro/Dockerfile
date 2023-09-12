@@ -12,7 +12,7 @@ COPY one_server.py one_clients.py config.json /app/
 # (if your script has dependencies)
 # COPY requirements.txt /app/
 # RUN pip install -r requirements.txt
-
+#hello
 # Expose the ports for both the server and client
 EXPOSE 9999
 
