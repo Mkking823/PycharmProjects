@@ -2,12 +2,12 @@
     "max_buffer_size": 1024,
     "servers": [
         {
-            "ip":"server1",
-            "port": 9921
+            "ip":"localhost",
+            "port": 3333
         },
         {
-            "ip":"server2",
-            "port":3405
+            "ip":"localhost",
+            "port": 8888
         }
     ]
 }
