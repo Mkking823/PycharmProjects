@@ -3,13 +3,14 @@ import json
 
 def main():
     fun_info()
+
 def read_config(filename):
     with open(filename, 'r') as file:
         config = json.load(file)
     return config
 def fun_info():
     config = read_config('config_file.json')
-    server_info = config['servers'][0]
+    server_info = config['servers'][1]
     server_ip = server_info['ip']
     server_port = server_info['port']
     max_buffer_size = config['max_buffer_size']
@@ -38,7 +39,6 @@ def fun_info():
             client_socket.close()
 
     server_socket.close()
-
-
 if __name__ == "__main__":
     main()
+

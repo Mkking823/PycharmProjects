@@ -9,6 +9,7 @@ data = [
 {"id": 3, "name": "mani"},
 ]
 
+#get methode
 @app.route('/api/users', methods=['GET'])
 def get_users():
     return jsonify(data)
