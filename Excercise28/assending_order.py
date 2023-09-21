@@ -16,7 +16,10 @@ while True:
     word = input("Enter a word (END to stop): ")
     if word == 'END':
         break
-    words.append(word)
+    if word.isalpha():
+        words.append(word)
+    else:
+      print("Invalid input. Please enter a word with alphabetic characters only.")
 
 # Sorting numbers and words
 numbers_asc = sorted(numbers)
