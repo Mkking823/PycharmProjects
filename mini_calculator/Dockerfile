@@ -5,7 +5,7 @@ FROM python:3.8-slim
 WORKDIR /app
 
 # Copy the Python script and XML file to the container
-COPY . /app
+COPY mini_calcultor/. /app
 
 #WORKDIR /home/ubuntu/DevOps_training/
 
