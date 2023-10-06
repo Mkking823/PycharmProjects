@@ -4,9 +4,9 @@ FROM python:3.8-slim
 # Set the working directory in the container
 WORKDIR /app
 
-COPY one_server.py one_clients.py /app/
+#COPY one_server.py one_clients.py /app/
 # Copy the Python scripts and configuration files into the container
-COPY one_server.py one_clients.py config.json /app/
+COPY one_server.py one_client.py config.json /app/
 
 # Install any needed packages specified in requirements.txt
 # (if your script has dependencies)
